@@ -1,0 +1,6 @@
+---
+# defaults file for roles/win_ad_install
+ad_domain_name: ad.6c15.example.opentlc.com
+ad_safe_mode_password: 'redhat' 
+ad_admin_user: "admin@{{ ad_domain_name}}"
+ad_admin_password: 'redhat'
